@@ -2016,6 +2016,13 @@
         // ==================== GALLERY IMAGE REVEAL ====================
         function revealImage(element) {
             element.classList.add('revealed');
+
+            const music = document.getElementById("BgMusic");
+
+            if (music.paused) {
+                music.currentTime = 0;
+                music.play():
+            }
         }
 
         // ==================== SCROLL EFFECTS ====================
@@ -2357,5 +2364,6 @@
     </script>
 </body>
 </html>
+
 
 
